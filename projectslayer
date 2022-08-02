@@ -2162,3 +2162,20 @@ local wen = game:GetService("ReplicatedStorage")["Player_Data"][game.Players.Loc
 local args = {[1] = "transfer_money_to_money_bag",[2] = game:GetService("Players").LocalPlayer,[3] = game:GetService("ReplicatedStorage").Player_Data[game.Players.LocalPlayer.Name],[4] = wen}
 game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S:FireServer(unpack(args))
 end)
+
+local btns = serv:Channel("Cảm Ơn Game Shit","")
+
+btns:Button("Game Project shitdown là game anticheat như cặc", function()
+end)
+
+btns:Button("chỉ cần có 1 cái server riêng là đéo bị banned ( Real )", function()
+end)
+
+btns:Button("nhưng game shit này kiếm ra tiền là quá ok cảm ơn game Project shitdown đã giúp tôi tính tiền điện tháng nay", function()
+end)
+
+btns:Button("có nhận pre oder acc max level", function()
+end)
+
+btns:Button("36 spin = inf spin", function()
+end)
