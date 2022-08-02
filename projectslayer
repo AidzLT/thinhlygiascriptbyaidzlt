@@ -2171,11 +2171,14 @@ end)
 btns:Button("chỉ cần có 1 cái server riêng là đéo bị banned ( Real )", function()
 end)
 
-btns:Button("nhưng game shit này kiếm ra tiền là quá ok cảm ơn game Project shitdown đã giúp tôi tính tiền điện tháng nay", function()
+btns:Button("tôi không hề quảng cáo", function()
 end)
 
 btns:Button("có nhận pre oder acc max level", function()
 end)
 
 btns:Button("36 spin = inf spin", function()
+end)
+
+btns:Button("facebook.com/AidzLT", function()
 end)
