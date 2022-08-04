@@ -2163,6 +2163,18 @@ local args = {[1] = "transfer_money_to_money_bag",[2] = game:GetService("Players
 game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S:FireServer(unpack(args))
 end)
 
+btns:Button("Nezuko Box", function()
+game:GetService("ReplicatedStorage").PlayerValues[game.Players.LocalPlayer.Name].ChildAdded:Connect(function(p1)
+p1:Destroy()
+end)
+wait(1)
+local string_1 = "Enter_Nezuko_Box";
+local userdata_1 = game.Players.LocalPlayer.Character;
+local userdata_2 = game:GetService("Workspace").KnockedOut["Sealed Box"];
+local Target = game:GetService("ReplicatedStorage").Remotes["To_Server_commends"];
+Target:FireServer(string_1, userdata_1, userdata_2);
+end)
+
 local btns = serv:Channel("Cảm Ơn Game Shit","")
 
 btns:Button("Game Project shitdown là game anticheat như cặc", function()
